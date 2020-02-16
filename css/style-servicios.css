@@ -34,47 +34,10 @@ body {
 
 .falconName {
     color: #026188;
+    font-weight: 700;
 }
 
 /* COMPARTIDAS */
-/*------------------------------------------------------------------*/
-#Intro {
-    background-image: url("../assets//index/a001.png") ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 630px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.introH1 {
-    color: white;
-    font-weight: 700;
-    font-size: 72px;
-}
-
-.introP {
-    color: white;
-    font-size: 40px;
-    padding: 0px 150px;
-    text-align: center;
-}
-
-.introLink {
-    color: white;
-    text-align: center;
-    border: 1px solid white;
-    padding: 10px 50px;
-}
-
-.introLink:hover {
-    text-decoration: none;
-    background-color: white;
-    color: #056289;
-    font-weight: 700;
-}
 /*------------------------------------------------------------------*/
 #Slogan {
     display: flex;
@@ -94,7 +57,7 @@ body {
 /*------------------------------------------------------------------*/
 
 #FalconBack1 {
-    background-image: url("../assets/index/a003.png");
+    background-image: url("../assets/servicios/a001.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -102,7 +65,7 @@ body {
 }
 
 #FalconBack2 {
-    background-image: url("../assets/index/a002.png");
+    background-image: url("../assets/servicios/a000.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -117,12 +80,18 @@ body {
     height: 100%;
 }
 
-#FalconWhy {
+#FalconServicio {
     text-align: right;
     font-size: 30px;
     color: #a3cd4b;
     padding: 5px 0px;
     padding-right: 15px;
+}
+
+.logo-servicio {
+    height: 110px;
+    width: 110px;
+    margin-bottom: 50px;
 }
 
 .containerLinksFlacon {
@@ -168,7 +137,7 @@ body {
 }
 /*------------------------------------------------------------------*/
 
-#Back1Boutique {
+#Back1Servicios {
     background-image: url("../assets/index/a005.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,7 +145,7 @@ body {
     height: 380px;
 }
 
-#Back2Boutique {
+#Back2Servicios {
     background-image: url("../assets/index/a004.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -184,29 +153,37 @@ body {
     height: 380px;
 }
 
-#Boutique {
+#Servicios {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
+    padding: 0px;
 }
 
-#BoutiqueTitle {
+#ServiciosTitle {
     text-align: center;
+    color: #026188;
+    font-size: 25px;
+    padding: 30px 150px;
+}
+
+.textServicios {
+    font-size: 25px;
+    line-height: 30px;
     color: #a3cd4b;
-    font-size: 30px;
+    text-align: center;
 }
 
-.boutiqueSubTitle {
+.textServiciosResaltado {
     color: #026188;
 }
 
-.textBoutique {
-    font-size: 16px;
-    line-height: 28px;
-    color: #026188;
+.rowServicios {
+    width: 100%;
 }
+
 /*------------------------------------------------------------------*/
 
 .rowContact {

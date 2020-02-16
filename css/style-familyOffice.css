@@ -36,45 +36,8 @@ body {
     color: #026188;
 }
 
-/* COMPARTIDAS */
-/*------------------------------------------------------------------*/
-#Intro {
-    background-image: url("../assets//index/a001.png") ;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 630px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+/* FIN COMPARTIDAS */
 
-.introH1 {
-    color: white;
-    font-weight: 700;
-    font-size: 72px;
-}
-
-.introP {
-    color: white;
-    font-size: 40px;
-    padding: 0px 150px;
-    text-align: center;
-}
-
-.introLink {
-    color: white;
-    text-align: center;
-    border: 1px solid white;
-    padding: 10px 50px;
-}
-
-.introLink:hover {
-    text-decoration: none;
-    background-color: white;
-    color: #056289;
-    font-weight: 700;
-}
 /*------------------------------------------------------------------*/
 #Slogan {
     display: flex;
@@ -94,7 +57,7 @@ body {
 /*------------------------------------------------------------------*/
 
 #FalconBack1 {
-    background-image: url("../assets/index/a003.png");
+    background-image: url("../assets/familyOffice/a001.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -102,7 +65,7 @@ body {
 }
 
 #FalconBack2 {
-    background-image: url("../assets/index/a002.png");
+    background-image: url("../assets/familyOffice/a000.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -117,7 +80,7 @@ body {
     height: 100%;
 }
 
-#FalconWhy {
+#FalconFO {
     text-align: right;
     font-size: 30px;
     color: #a3cd4b;
@@ -125,32 +88,13 @@ body {
     padding-right: 15px;
 }
 
-.containerLinksFlacon {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.linkFalconWhy {
-    flex-direction: column;
-    padding: 10px 30px;
-    font-size: 16px;
-    color: #a3cd4b;
-    font-weight: 700;
-    border: 2px solid #026188;
-    margin: 5px 0px;
-}
-
-.linkFalconWhy:hover {
-    text-decoration: none;
-}
-
 #FalconExperence {
-    text-align: left;
     font-size: 20px;
-    color: #a3cd4b;
-    padding: 10px;
-    padding-right: 30px;
+    padding: 10px 0px 0px 0px;
+}
+
+.rowFalconFO {
+    width: 100%;
 }
 
 .separadorFalcon {
@@ -161,9 +105,8 @@ body {
 }
 
 .textoFalconExperence {
-    font-size: 14px;
-    line-height: 26px;
-    padding-right: 100px;
+    font-size: 18px;
+    line-height: 30px;
     color: #026188;
 }
 /*------------------------------------------------------------------*/
