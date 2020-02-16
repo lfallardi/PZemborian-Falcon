@@ -1,0 +1,307 @@
+.container-fluid{
+    padding: 0px;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-falcon {
+    background-color: #045578 !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 14px;
+}
+
+/* COMPARTIDAS */
+
+.gradiente {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#056289+1,a3cd4b+100 */
+    background: #056289; /* Old browsers */
+    background: -moz-linear-gradient(45deg,  #056289 1%, #a3cd4b 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  #056289 1%,#a3cd4b 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  #056289 1%,#a3cd4b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#056289', endColorstr='#a3cd4b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.falconName {
+    color: #026188;
+}
+
+/* COMPARTIDAS */
+/*------------------------------------------------------------------*/
+#Intro {
+    background-image: url("../assets//index/a001.png") ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 630px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.introH1 {
+    color: white;
+    font-weight: 700;
+    font-size: 72px;
+}
+
+.introP {
+    color: white;
+    font-size: 40px;
+    padding: 0px 150px;
+    text-align: center;
+}
+
+.introLink {
+    color: white;
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px 50px;
+}
+
+.introLink:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #056289;
+    font-weight: 700;
+}
+/*------------------------------------------------------------------*/
+#Slogan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    height: 150px;
+}
+
+.slogan {
+    padding: 0px 250px;
+    font-size: 25px;
+    line-height: 30px;
+}
+/*------------------------------------------------------------------*/
+
+#FalconBack1 {
+    background-image: url("../assets/index/a003.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 500px;
+}
+
+#FalconBack2 {
+    background-image: url("../assets/index/a002.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 500px;
+}
+
+#Falcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#FalconWhy {
+    text-align: right;
+    font-size: 30px;
+    color: #a3cd4b;
+    padding: 5px 0px;
+    padding-right: 15px;
+}
+
+.containerLinksFlacon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.linkFalconWhy {
+    flex-direction: column;
+    padding: 10px 30px;
+    font-size: 16px;
+    color: #a3cd4b;
+    font-weight: 700;
+    border: 2px solid #026188;
+    margin: 5px 0px;
+}
+
+.linkFalconWhy:hover {
+    text-decoration: none;
+}
+
+#FalconExperence {
+    text-align: left;
+    font-size: 20px;
+    color: #a3cd4b;
+    padding: 10px;
+    padding-right: 30px;
+}
+
+.separadorFalcon {
+    height: 260px;
+    width: 3px;
+    background-color: #026188;
+    margin: 10px;
+}
+
+.textoFalconExperence {
+    font-size: 14px;
+    line-height: 26px;
+    padding-right: 100px;
+    color: #026188;
+}
+/*------------------------------------------------------------------*/
+
+#Back1Boutique {
+    background-image: url("../assets/index/a005.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    height: 380px;
+}
+
+#Back2Boutique {
+    background-image: url("../assets/index/a004.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    height: 380px;
+}
+
+#Boutique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#BoutiqueTitle {
+    text-align: center;
+    color: #a3cd4b;
+    font-size: 30px;
+}
+
+.boutiqueSubTitle {
+    color: #026188;
+}
+
+.textBoutique {
+    font-size: 16px;
+    line-height: 28px;
+    color: #026188;
+}
+/*------------------------------------------------------------------*/
+
+.rowContact {
+    margin: 0px;
+}
+
+#BackContacto1 {
+    background-image: url("../assets/index/a006.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+
+#BackContacto2 {
+    background-image: url("../assets/index/a007.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 660px;
+}
+
+.contactTitle {
+    color: #026188;
+    text-align: center;
+    font-weight: 700;
+}
+
+#frmContacto {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.input-form {
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border: 1px solid lightgray;
+}
+
+.input-form-area {
+    resize: none;
+}
+
+/*------------------------------------------------------------------*/
+
+#Footer {
+    height: 150px;
+    padding-top: 20px;
+}
+
+#Logo {
+    background-image: url("../assets/comunes/Logo-neg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 75px;
+    background-position: center;
+}
+
+#Derechos {
+    background-color: #045578;
+    height: 20px;
+}
+
+#Suiza {
+    font-size: 16px;
+    text-align: right;
+    color: white;
+}
+
+#Arg {
+    font-size: 16px;
+    color: white;
+}
+
+/*------------------------------------------------------------------*/
+
+@media only screen and (max-width: 800px) {
+    #Intro {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .introH1 {
+        text-align: center;
+    }
+    
+    .introP{
+        padding: 0px;
+    }
+
+    .slogan {
+        padding: 0px;
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

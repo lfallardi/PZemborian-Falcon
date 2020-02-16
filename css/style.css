@@ -1,0 +1,465 @@
+/* HEADER */
+.container-fluid{
+    padding: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+/* FIN HEADER */
+
+/* NAV BAR */
+.dropdown-toggle::after {
+    display: none;
+    margin-left: none;
+    vertical-align: none;
+    content: "";
+    border-top: none;
+    border-right: none;
+    border-bottom: 0;
+    border-left: none;
+}
+
+.toogle-down {
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+nav {
+    font-size: 12px;
+    font-weight: bold;
+    color: #999;
+}
+.nav-link {
+    color:#333 !important;
+}
+.bg-encopress {
+    background-color: #fff !important;
+    border-bottom: 2px solid #ca2254 !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+    align-items: center;
+}
+
+.accesos-clientes {
+    margin-top: 3px;
+    background-color: #ca2254;
+    color: white !important;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+/* FIN NAV BAR */
+
+/* COMPARTIDAS */
+.resaltado {
+    color: #ca2254 !Important;
+}
+
+.link-sections {
+    box-sizing: border-box;
+    color: #ca2254;
+    border: #ca2254 1px solid;
+    padding: 10px 30px;
+    text-align: center;
+}
+
+.title-sections {
+    font-size: 60px;
+}
+
+.text-sections {
+    font-size: 18px;
+    line-height: 28px;
+    color: #c0c2c4;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/* FIN DE COMPARTIDAS */
+
+/* BODY */
+/* SECTION 1 */
+.back-encopress {
+    width: 100% !important;
+    /* height: 100%; */
+    background-image: url('../assets/warehouse-aisle-ikea-store_33910-82.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: -50px;
+} 
+
+#overlay {
+    width: 100%;
+    height: 100% !important;
+    /* height: 690px; */
+    background-color: rgba(0,0,0,0.5);
+    z-index: 3;
+    position: absolute;
+}
+
+.slogan {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    /* margin-top: -300px; */
+    margin-top: 150px;
+    padding-left: 50px;
+}
+
+.header-body {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.title {
+    color: white;
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+#links-home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 0px;
+    padding-right: 90px;
+}
+
+.link-home {
+    color: white;
+    font-size: 16px;
+    border: white 1px solid;
+    padding: 10px 15px;
+    margin: 10px 0px;
+    text-align: center;
+}
+
+.link-home:hover{
+    text-decoration: none;
+    background-color: white;
+    color: #303182;
+    font-weight: bold;
+}
+
+/* SECTION 2 SOBRE NOSOTROS */
+#secAboutUs{
+    margin: 30px 0px;
+}
+
+.nearHeader {
+    background-image: url("../assets/nearHeader.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    margin-top: -50px;
+    z-index: -1;
+}
+
+#links-about {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px 40px;
+    margin: 35px 0px;
+}
+
+#textAboutUs {
+    padding: 0px 50px;
+}
+
+.text1-au {
+    font-size: 23px;
+    line-height: 35px;
+    color: #303182;
+}
+
+/* SECTION 3 SERVICIOS */
+.link-sections-no-padding {
+    padding: 0px;
+}
+
+#textService {
+    margin-top: 70px;
+    padding: 0px 70px;
+}
+
+#links-service {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 35px 0px;
+}
+
+.nearFooter {
+    background-image: url("../assets/nearFooter.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    height: 300px;
+    width: 100%;
+    margin-top: -250px;
+    z-index: -1;
+}
+
+/* FOOTER */
+footer {
+    margin-top: 50px;
+}
+
+.backfoot-encopress {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-image: url('../assets/young-man-working-warehouse-with-boxes_1303-16617.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#RightsEncopress1 {
+    height: 180px;
+    background-color: #c0c2c4;
+}
+
+#rightsEncopress2 {
+    height: 50px;
+    background-color: #303182;
+    border-top: 2px solid #ca2254;
+}
+
+.text-derechos {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+/* FOOTER CONTACTO */
+#Contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 25px;
+}
+
+.contacto {
+    height: 400px;
+    width: 600px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-top-right-radius: 50px;
+}
+
+#frmContacto {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.input-form {
+    margin: 5px 0px;
+    padding: 5px 10px;
+    border: none;
+}
+
+.input-form-area {
+    resize: none;
+}
+
+.btn-form {
+    background-color: #303182;
+    border: none;
+    margin-top: 5px;
+}
+
+/* INFO CONTACTO */
+
+#InfoContacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+.infoFooter {
+    font-size: 12px;
+    color: #696a6c;
+}
+
+.Logo {
+    background-image: url('../assets/Logo.png');
+    width: 250px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#ContactoTelefonico {
+    text-align: right;
+}
+
+.resaltado-footer {
+    color: #696a6c;
+}
+
+#Encopress-responsive {
+    display: none;
+}
+
+/* ACA VAN LOS MEDIA QUERYS */
+@media only screen and (max-width: 800px) {
+    .video-responsive {
+        display: none;
+    }
+    .bg-encopress {
+        background-color: rgb(216, 213, 213) !important;
+        border-bottom: 2px solid #ca2254 !important;
+    }
+
+    #overlay {
+        display: none;
+    }
+
+    #Encopress-responsive {
+        display: flex;
+    }
+
+    .slogan {
+        display: flex;
+        justify-content: space-around;
+        width: 100% !important;
+        height: 500px;
+        background-image: url('../assets/warehouse-aisle-ikea-store_33910-82.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+
+    .nearHeader {
+        background-image: url("../assets/nearHeader.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 150px;
+        width: 100%;
+        margin-top: -35px;
+        background-size: contain;
+        z-index: -1;
+    }
+
+    .title-sections {
+        font-size: 50px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+
+    #links-home {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .link-home {
+        color: white;
+        font-size: 16px;
+        border: white 1px solid;
+        padding: 10px 15px;
+        margin: 10px 0px;
+        text-align: center;
+    }
+ 
+    
+    #links-about {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0px 40px;
+        margin: 35px 0px;
+    }
+
+    .link-sections {
+        box-sizing: border-box;
+        color: #ca2254;
+        border: #ca2254 1px solid;
+        padding: 10px 30px;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #links-service {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 35px 0px;
+    }
+ 
+    .nearFooter {
+        display: none;
+    }
+
+/* INFO CONTACTO */
+
+    #RightsEncopress1 {
+        height: 260px;
+        background-color: #c0c2c4;
+    }
+
+    #InfoContacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 10px 0px;
+    }
+
+    .infoFooter {
+        font-size: 10px;
+        color: #696a6c;
+    }
+
+    .Logo {
+        display: none;
+    }
+
+    #ContactoTelefonico {
+        text-align: left;
+    }
+
+    .resaltado-footer {
+        font-size: 15px;
+        color: #696a6c;
+    }
+
+    .text-derechos {
+        font-size: 12px;
+        color: white;
+        text-align: center;
+        padding-top: 15px;
+    }
+    
+
+}
