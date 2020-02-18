@@ -39,7 +39,7 @@ body {
 /* COMPARTIDAS */
 /*------------------------------------------------------------------*/
 #Intro {
-    background-image: url("../assets//index/a001.png") ;
+    background-image: url("../assets/porQueElegirnos/a000.png") ;
     background-repeat: no-repeat;
     background-size: contain;
     height: 630px;
@@ -52,7 +52,11 @@ body {
 .introH1 {
     color: white;
     font-weight: 700;
-    font-size: 72px;
+    font-size: 60px;
+}
+
+.introLogo {
+    height: 100px;
 }
 
 .introP {
@@ -83,18 +87,34 @@ body {
     justify-content: center;
     color: white;
     text-align: center;
-    height: 150px;
+    height: 250px;
 }
 
 .slogan {
-    padding: 0px 250px;
     font-size: 25px;
     line-height: 30px;
+    padding: 0px 50px;
+    margin-bottom: 30px;
 }
+
+.linkSlogan {
+    color: white;
+    padding: 10px 50px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+.linkSlogan:hover {
+    text-decoration: none;
+    background-color: white;
+    color: #026188;
+    font-weight: 700;
+}
+
 /*------------------------------------------------------------------*/
 
 #FalconBack1 {
-    background-image: url("../assets/index/a003.png");
+    background-image: url("../assets/porQueElegirnos/a002.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: right;
@@ -102,7 +122,7 @@ body {
 }
 
 #FalconBack2 {
-    background-image: url("../assets/index/a002.png");
+    background-image: url("../assets/porQueElegirnos/a001.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left;
@@ -115,14 +135,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100%;
-}
-
-#FalconWhy {
-    text-align: right;
-    font-size: 30px;
-    color: #a3cd4b;
-    padding: 5px 0px;
-    padding-right: 15px;
+    padding: 0px 250px;
 }
 
 .containerLinksFlacon {
@@ -146,29 +159,40 @@ body {
 }
 
 #FalconExperence {
-    text-align: left;
-    font-size: 20px;
     color: #a3cd4b;
-    padding: 10px;
-    padding-right: 30px;
+    padding: 0px 50px;
+    margin-left: 50px;
 }
 
-.separadorFalcon {
-    height: 260px;
-    width: 3px;
-    background-color: #026188;
-    margin: 10px;
+.h3 {
+    padding: 0px 10px;
+}
+
+.rowOT {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .textoFalconExperence {
     font-size: 14px;
     line-height: 26px;
-    padding-right: 100px;
     color: #026188;
+    text-align: left;
 }
+
+.ulNoPadding {
+    padding: 0px;
+}
+
+.item {
+    text-decoration: none;
+    list-style: none;
+}
+
 /*------------------------------------------------------------------*/
 
-#Back1Boutique {
+#Back1Equipo {
     background-image: url("../assets/index/a005.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -176,7 +200,7 @@ body {
     height: 380px;
 }
 
-#Back2Boutique {
+#Back2Equipo {
     background-image: url("../assets/index/a004.png");
     background-repeat: no-repeat;
     background-size: contain;
@@ -184,7 +208,7 @@ body {
     height: 380px;
 }
 
-#Boutique {
+#Equipo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,21 +216,50 @@ body {
     height: 100%;
 }
 
-#BoutiqueTitle {
+#EquipoTitle {
     text-align: center;
     color: #a3cd4b;
     font-size: 30px;
 }
 
-.boutiqueSubTitle {
+.EquipoSubTitle {
     color: #026188;
+    font-weight: 700;
 }
 
-.textBoutique {
+.textEquipo {
     font-size: 16px;
     line-height: 28px;
     color: #026188;
 }
+
+.imgEquipo {
+    height: 210px;
+    width: 210;
+    border-radius: 50%;
+}
+
+.nombreEquipo {
+    margin-top: 20px;
+    color: #026188;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.cargoEquipo {
+    color: #a3cd4b;
+    text-align: center;
+    font-size: 16px;
+}
+
+.notaEquipo {
+    color: #026188;
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+
 /*------------------------------------------------------------------*/
 
 .rowContact {
