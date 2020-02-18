@@ -401,6 +401,15 @@ body {
         display: none;
     }
 
+    #frmContacto {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size: 12px;
+    }
+    
+
     /* FOOTER */
     #Footer {
         height: 250px;
