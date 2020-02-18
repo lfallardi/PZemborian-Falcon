@@ -109,6 +109,10 @@ body {
     height: 500px;
 }
 
+.rowFalcon {
+    width: 100%;
+}
+
 #Falcon {
     display: flex;
     flex-direction: column;
@@ -308,8 +312,13 @@ body {
     /*FALCON*/
     #FalconBack1, #FalconBack2 {
         background-image: none;
+        margin-top: 30px;
     }
 
+    .rowFalcon {
+        height: 100%;
+        margin-bottom: 100px;
+    }
 
     #Falcon {
         display: flex;
@@ -335,8 +344,8 @@ body {
     }
     
     .linkFalconWhy {
-        flex-direction: column;
-        padding: 10px 100px;
+        flex-direction: row;
+        padding: 10px 30px;
         font-size: 16px;
         color: #a3cd4b;
         font-weight: 700;
@@ -366,7 +375,7 @@ body {
 
     /*BOUTIQUE*/
     #Boutique {
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
     .textBoutique {
@@ -374,6 +383,10 @@ body {
         font-size: 16px;
         line-height: 28px;
         color: #026188;
+    }
+
+    .boutiqueSubTitle {
+        font-size: 24px;
     }
 
     .textBoutiqueResponsive {
